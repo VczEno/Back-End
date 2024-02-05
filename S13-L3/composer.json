@@ -1,0 +1,17 @@
+{
+    "name": "arpai/s13-l2",
+    "autoload": {
+        "psr-4": {
+            "Arpai\\S13L2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VczEno",
+            "email": "arpaia.vin@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
