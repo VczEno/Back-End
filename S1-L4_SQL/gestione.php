@@ -1,14 +1,7 @@
 <?php 
 
-session_start();
-
-
-
-$users = isset($_SESSION["users"]) ? $_SESSION["users"] : [];
-
-/* if(isset($_POST["firstname"]) && isset($_POST["lastname"]) && !isset($_POST["mail"]) && !isset($_POST["password"])) */
 $user= [
-    'nome' => $_POST['firstname'],
+    'name' => $_POST['firstname'],
     'cognome' => $_POST['lastname'],
     'mail' => $_POST['mail'],
     'password' => $_POST['password'],

@@ -1,0 +1,36 @@
+TRACCIA
+Si desidera creare un'applicazione web per la gestione di una libreria. 
+L'applicazione dovrà consentire agli utenti di visualizzare i libri disponibili, aggiungere nuovi libri, 
+modificare i dettagli dei libri esistenti e rimuovere i libri. 
+I dettagli dei libri includono il titolo, l'autore, l'anno di pubblicazione e il genere.
+
+REQUISITI:
+1.Pagina principale:
+    1. Mostra un elenco di tutti i libri disponibili con i dettagli di ciascun libro (titolo, autore, anno di pubblicazione, genere). FARE DELLE CARD
+    2. Permette agli utenti di aggiungere un nuovo libro tramite un modulo.     FORM CON ACTION ADDBOOK PER AGGIUNGERE UN NUOVO RECORD
+2.Aggiunta di un nuovo libro: 
+    1. Crea un modulo che consenta agli utenti di inserire i dettagli di un nuovo libro (titolo, autore, anno di pubblicazione, genere). 
+    2. Quando il modulo viene inviato, i dati del libro devono essere salvati nel database. 
+3.Modifica dei dettagli del libro: 
+    1. Permette agli utenti di modificare i dettagli di un libro esistente selezionando il libro dalla lista e compilando un modulo con i nuovi dettagli. 
+    2. Quando il modulo viene inviato, i dati del libro devono essere aggiornati nel database.
+4.Rimozione di un libro:
+    1. Permette agli utenti di rimuovere un libro esistente selezionandolo dalla lista.
+
+STRUTTURA DEL DATABASE:
+•Crea un database chiamato gestione_libreria. 
+•Crea una tabella chiamata libri con i seguenti campi: SI PUò FARE UNA TABELLA PRIMARIA UTENTI E VINCOLARE L'ID A QUELLI DEI LIBRI POSTATI
+    • id (int, auto-increment, chiave primaria) 
+    • titolo (varchar) 
+    • autore (varchar) 
+    • anno_pubblicazione (int)
+    • genere (varchar)
+
+NOTE AGGIUNTIVE:
+•Utilizza PHP per gestire la logica dell'applicazione (come l'elaborazione dei moduli, l'accesso al database, ecc.). 
+•Utilizza MySQL per creare e gestire il database e le tabelle. 
+•Utilizza HTML e CSS per la parte visuale dell'applicazione web. 
+•Assicurati di implementare la sicurezza dell'applicazione, 
+    ad esempio la validazione dei dati del modulo e la protezione contro le vulnerabilità come SQL injection. 
+    Questo esercizio ti fornirà un'ottima opportunità per praticare l'uso di PHP e MySQL nella creazione di un'applicazione web funzionale e interattiva.
+    Buon lavoro!
